@@ -1,0 +1,199 @@
+body{font-family: Georgia;
+    font-size: 12px;
+    color:#777070;
+    background: url("../images/polo360%20-%20NEW.png")repeat-x;}
+
+.container{width:940px;
+        margin: 0 auto;}
+
+header{height:140px;
+    padding:8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;}
+
+header a {text-decoration: none;color:rgb(102,102,102)}
+
+.menu{font-size: 14px;
+    font-weight: bold;
+    color:rgb(102,102,102);
+    text-transform:uppercase;
+    padding:9px;
+    border-left: 1px dotted;}
+
+.logo{margin-right:auto;}
+
+span{display:block ;
+    margin-top:4px;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform:none;
+    color:#b7b7b7;
+    font-family:Tahoma;}
+
+.slide {margin:23px auto;
+    box-shadow: 0px 0px 2px -4px rgba(0,0,0,0.2);}
+
+h1{font-size:24px;
+    font-weight: bold;
+    text-align: center;
+    color:#000;
+    margin-bottom: 15px;}
+
+
+.articlesContainer {margin-top: 37px;
+                display:flex;
+                justify-content: space-between;}
+
+.article{width:300px;}
+
+h2{font-size:21px;
+    color:#11719e;
+    text-transform: capitalize;}
+
+.articlesContainer >.article > img{ margin:15px auto;
+    padding:5px;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 2px rgba(1, 1, 1, 0.2);
+    background-color:#f3f3f3;}
+
+.articlesContainer >.article > p{font-size:13px;
+                font-family:helvetica;
+                font-weight: 600;
+                line-height: 18.4px;
+                padding-left:5px;
+                padding-right:20px;
+                color:#3e3e3e;}
+
+   .articlesContainer> .article> .button {background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(244,244,244,1) 35%, rgba(232,232,232,1) 100%);
+        width:157px;
+        height:35px;
+        padding:11px;
+        box-sizing:border-box;
+        margin:20px 0px 20px 5px;
+        border-radius: 3px;
+        box-shadow: 0 0 4px 2px rgba(1, 1, 1, 0.2);
+        background-color:#f3f3f3;
+        color:#016999;
+        text-transform: capitalize;
+        font-family: helvetica;
+        font-weight: 400;
+        position: relative;}
+
+ .button:after{content:"\0021E2";
+             font-size: 15px;
+             position: absolute;
+             right:10px;
+             top:9px;}
+
+
+.socialPart {margin:37px auto;
+    display:flex;
+    padding-left: 2px;
+    justify-content: space-between;}
+
+h3{text-transform: capitalize;
+                color:#3e3e3e;
+                font-size:18px;
+                border-bottom: 1px dashed;
+                padding-bottom: 5px;}
+
+.socialPart> .article> p {font-family: helvetica;
+                margin-top:10px;}
+
+figure {display: flex;
+    justify-content: space-around;
+    margin:5px 0 40px 0px;}
+
+.newh3{font-family: "Gill Sans MT";
+        font-size:18px;
+        font-weight:bold;
+        border-bottom: 1px dotted;
+        padding-bottom: 5px;}
+
+input{height:30px;
+    width:290px;
+    padding-left:10px;
+    font-family:Verdana;
+    font-size:10px;
+    font-weight: 200;
+    margin:10px auto;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius: 3px;}
+
+form .msg {height:128px;}
+
+.socialPart> .article> .button {background: rgb(53,108,164);
+        background: linear-gradient(90deg, rgba(53,108,164,1) 0%, rgba(78,133,189,1) 35%, rgba(48,97,147,1) 100%);
+        width:167px;
+        height: 32px;
+        padding:10px 11px;
+        box-sizing: border-box;
+        margin:2px 0px 23px 0px;
+        border-radius: 3px;
+        box-shadow: 0 0 4px 2px rgba(1, 1, 1, 0.2);
+        background-color:#f3f3f3;
+        color:white;
+        text-transform: capitalize;
+        font-family: helvetica;
+        font-weight: 200;
+        font-size:13px;
+        position: relative;}
+
+
+.socialPart> .article> .newsBox > figure {font-family: helvetica;
+    border-bottom: 1px dotted;margin: 12px 0px; padding-bottom:10px;}
+
+figcaption {padding-left:5px;}
+
+.socialPart> .article> .newsBox > figure > img {padding:5px;
+            border-radius: 3px;
+            box-shadow: 0 0 4px 2px rgba(1, 1, 1, 0.2);
+            background-color:#f3f3f3;}
+
+footer{background-color:rgb(51,51,51);}
+
+.coloredfooter{height:10px;
+    background-color:rgb(76,76,76);
+    margin-bottom: 16px;}
+
+.lastline{width:940px;
+    margin:0 auto;
+    font-family:Helvetica;
+    font-size:11px;
+    text-transform: capitalize;
+    overflow: hidden;}
+
+.lastline>div {margin-bottom:10px;}
+
+.lastline>div:first-child {display: flex;
+    justify-content: space-between;
+    padding:0px 5px;}
+
+.footermenucontent{display: flex;}
+
+.footermenucontent > div{border-right: 1px solid;
+                box-sizing: border-box;
+                padding:0px 5px;}
+
+.footermenucontent>div:last-child{border-right:0px;}
+
+.lastline >div:last-child{margin-bottom: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
